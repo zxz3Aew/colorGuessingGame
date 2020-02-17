@@ -1,0 +1,13 @@
+{
+    "name": "ColorGame",
+    "version": "1.0.0",
+    "description": "RGB color game after bootcamp",
+    "scripts": {
+      "devserver": "live-server"
+    },
+    "author": "BauLi",
+    "license": "ISC",
+    "devDependencies": {
+      "node-sass": "^4.13.1"
+    }
+  }
