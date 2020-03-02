@@ -25,10 +25,6 @@ function setUpModeBtn(){
             this.textContent === 'Easy' ? numSquares = 3: numSquares = 6; //using ternary operator 
         
             reset();
-            //figure out how many squares to show
-            //pick new colors
-            //pick a new pickedColor
-            //update page to reflect changes
         })
     }
 }
@@ -68,7 +64,6 @@ function reset(){
         }else{
             squares[i].style.display = 'none';
         }
-        
     }
     //reset h1 backgroundColor
     h1.style.backgroundColor = '#232323';
