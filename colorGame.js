@@ -42,12 +42,12 @@ function setUpSquares(){
             //compare color to pickedColor
             if(clickedColor === pickedColor){
                 h1.style.backgroundColor = clickedColor;
-                messageDisplay .textContent = 'Correct!';
+                messageDisplay.textContent = 'Correct!';
                 changeColors(clickedColor);
                 resetBtn.textContent = 'Play again';
             }else{
                 this.style.backgroundColor = '#232323';
-                messageDisplay .textContent = 'Try again';
+                messageDisplay.textContent = 'Try again';
             }
         })
     }
@@ -90,7 +90,7 @@ function changeColors(color){
 
 function pickColor(){
     //pick a random color
-    var random = Math.floor(Math.random()* colors .length);
+    var random = Math.floor(Math.random()* colors.length);
     return colors[random];
 }
 
